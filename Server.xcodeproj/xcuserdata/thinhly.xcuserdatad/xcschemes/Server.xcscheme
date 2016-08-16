@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "359F831A1CFFEBB400273C66"
-               BuildableName = "Client"
-               BlueprintName = "Client"
-               ReferencedContainer = "container:Client.xcodeproj">
+               BlueprintIdentifier = "359F83451D0017D300273C66"
+               BuildableName = "Server"
+               BlueprintName = "Server"
+               ReferencedContainer = "container:Server.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "359F831A1CFFEBB400273C66"
-            BuildableName = "Client"
-            BlueprintName = "Client"
-            ReferencedContainer = "container:Client.xcodeproj">
+            BlueprintIdentifier = "359F83451D0017D300273C66"
+            BuildableName = "Server"
+            BlueprintName = "Server"
+            ReferencedContainer = "container:Server.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -47,7 +47,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/thinhly/Desktop/Client/Client"
+      customWorkingDirectory = "/Users/thinhly/Desktop/Server/Server"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -56,10 +56,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "359F831A1CFFEBB400273C66"
-            BuildableName = "Client"
-            BlueprintName = "Client"
-            ReferencedContainer = "container:Client.xcodeproj">
+            BlueprintIdentifier = "359F83451D0017D300273C66"
+            BuildableName = "Server"
+            BlueprintName = "Server"
+            ReferencedContainer = "container:Server.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "359F831A1CFFEBB400273C66"
-            BuildableName = "Client"
-            BlueprintName = "Client"
-            ReferencedContainer = "container:Client.xcodeproj">
+            BlueprintIdentifier = "359F83451D0017D300273C66"
+            BuildableName = "Server"
+            BlueprintName = "Server"
+            ReferencedContainer = "container:Server.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

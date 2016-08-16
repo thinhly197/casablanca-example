@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		359F831F1CFFEBB400273C66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 359F831E1CFFEBB400273C66 /* main.cpp */; };
+		359F832A1CFFED2A00273C66 /* libboost_chrono-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F83261CFFED2A00273C66 /* libboost_chrono-mt.dylib */; };
+		359F832B1CFFED2A00273C66 /* libboost_system-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F83271CFFED2A00273C66 /* libboost_system-mt.dylib */; };
+		359F832C1CFFED2A00273C66 /* libboost_thread-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F83281CFFED2A00273C66 /* libboost_thread-mt.dylib */; };
+		359F832D1CFFED2A00273C66 /* libcpprest.2.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F83291CFFED2A00273C66 /* libcpprest.2.8.dylib */; };
+		359F83301CFFED4500273C66 /* libcrypto.1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F832E1CFFED4500273C66 /* libcrypto.1.0.0.dylib */; };
+		359F83311CFFED4500273C66 /* libssl.1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F832F1CFFED4500273C66 /* libssl.1.0.0.dylib */; };
+		359F83331CFFED5300273C66 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F83321CFFED5300273C66 /* CoreFoundation.framework */; };
+		359F83361CFFEDAF00273C66 /* user.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 359F83341CFFEDAF00273C66 /* user.cpp */; };
+		359F833C1CFFEFC400273C66 /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 359F833A1CFFEFC400273C66 /* md5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,20 @@
 /* Begin PBXFileReference section */
 		359F831B1CFFEBB400273C66 /* Client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Client; sourceTree = BUILT_PRODUCTS_DIR; };
 		359F831E1CFFEBB400273C66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		359F83251CFFEC0900273C66 /* client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		359F83261CFFED2A00273C66 /* libboost_chrono-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_chrono-mt.dylib"; path = "../../../../usr/local/lib/libboost_chrono-mt.dylib"; sourceTree = "<group>"; };
+		359F83271CFFED2A00273C66 /* libboost_system-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_system-mt.dylib"; path = "../../../../usr/local/lib/libboost_system-mt.dylib"; sourceTree = "<group>"; };
+		359F83281CFFED2A00273C66 /* libboost_thread-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_thread-mt.dylib"; path = "../../../../usr/local/lib/libboost_thread-mt.dylib"; sourceTree = "<group>"; };
+		359F83291CFFED2A00273C66 /* libcpprest.2.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcpprest.2.8.dylib; path = ../../../../usr/local/lib/libcpprest.2.8.dylib; sourceTree = "<group>"; };
+		359F832E1CFFED4500273C66 /* libcrypto.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.0.0.dylib; path = ../../../../usr/local/Cellar/openssl/1.0.2h_1/lib/libcrypto.1.0.0.dylib; sourceTree = "<group>"; };
+		359F832F1CFFED4500273C66 /* libssl.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.1.0.0.dylib; path = ../../../../usr/local/Cellar/openssl/1.0.2h_1/lib/libssl.1.0.0.dylib; sourceTree = "<group>"; };
+		359F83321CFFED5300273C66 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		359F83341CFFEDAF00273C66 /* user.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = user.cpp; sourceTree = "<group>"; };
+		359F83351CFFEDAF00273C66 /* user.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = user.hpp; sourceTree = "<group>"; };
+		359F83381CFFEE2F00273C66 /* transaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transaction.h; sourceTree = "<group>"; };
+		359F833A1CFFEFC400273C66 /* md5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		359F833B1CFFEFC400273C66 /* md5.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = md5.hpp; sourceTree = "<group>"; };
+		359F83941D010B0B00273C66 /* auth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = auth.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +55,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359F83331CFFED5300273C66 /* CoreFoundation.framework in Frameworks */,
+				359F83301CFFED4500273C66 /* libcrypto.1.0.0.dylib in Frameworks */,
+				359F83311CFFED4500273C66 /* libssl.1.0.0.dylib in Frameworks */,
+				359F832A1CFFED2A00273C66 /* libboost_chrono-mt.dylib in Frameworks */,
+				359F832B1CFFED2A00273C66 /* libboost_system-mt.dylib in Frameworks */,
+				359F832C1CFFED2A00273C66 /* libboost_thread-mt.dylib in Frameworks */,
+				359F832D1CFFED2A00273C66 /* libcpprest.2.8.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +71,13 @@
 		359F83121CFFEBB400273C66 = {
 			isa = PBXGroup;
 			children = (
+				359F83321CFFED5300273C66 /* CoreFoundation.framework */,
+				359F832E1CFFED4500273C66 /* libcrypto.1.0.0.dylib */,
+				359F832F1CFFED4500273C66 /* libssl.1.0.0.dylib */,
+				359F83261CFFED2A00273C66 /* libboost_chrono-mt.dylib */,
+				359F83271CFFED2A00273C66 /* libboost_system-mt.dylib */,
+				359F83281CFFED2A00273C66 /* libboost_thread-mt.dylib */,
+				359F83291CFFED2A00273C66 /* libcpprest.2.8.dylib */,
 				359F831D1CFFEBB400273C66 /* Client */,
 				359F831C1CFFEBB400273C66 /* Products */,
 			);
@@ -58,6 +95,13 @@
 			isa = PBXGroup;
 			children = (
 				359F831E1CFFEBB400273C66 /* main.cpp */,
+				359F83251CFFEC0900273C66 /* client.h */,
+				359F83341CFFEDAF00273C66 /* user.cpp */,
+				359F83351CFFEDAF00273C66 /* user.hpp */,
+				359F83381CFFEE2F00273C66 /* transaction.h */,
+				359F833A1CFFEFC400273C66 /* md5.cpp */,
+				359F833B1CFFEFC400273C66 /* md5.hpp */,
+				359F83941D010B0B00273C66 /* auth.json */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -118,6 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359F833C1CFFEFC400273C66 /* md5.cpp in Sources */,
+				359F83361CFFEDAF00273C66 /* user.cpp in Sources */,
 				359F831F1CFFEBB400273C66 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +255,16 @@
 		359F83231CFFEBB400273C66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/opt/openssl/lib,
+					/usr/local/Cellar/openssl/1.0.2h_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +272,16 @@
 		359F83241CFFEBB400273C66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/opt/openssl/lib,
+					/usr/local/Cellar/openssl/1.0.2h_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -239,6 +305,7 @@
 				359F83241CFFEBB400273C66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
